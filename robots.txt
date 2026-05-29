@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aleksandar-hqdm.github.io/aevita-clinic/sitemap.xml
