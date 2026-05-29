@@ -25,9 +25,9 @@
 <div class="utility-bar">
   <div class="container">
     <div class="langs">EN<span>·</span>DE<span>·</span>SR<span>·</span>AL<span>·</span>МК<span>·</span>BG</div>
-    <div>
+    <div class="utility-contacts">
       <a href="tel:+38970555100">+389 70 555 100</a>
-      &nbsp;·&nbsp;
+      <span class="utility-sep">·</span>
       <a href="mailto:hello@aevitaclinic.mk">hello@aevitaclinic.mk</a>
     </div>
   </div>
@@ -41,14 +41,24 @@
         <span class="loc">Skopje · Southeastern Europe</span>
       </div>
     </a>
-    <nav class="site-nav">
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="/aevita-clinic/services/">Services</a>
       <a href="/aevita-clinic/services/iv-therapy/">IV Lounge</a>
       <a href="/aevita-clinic/services/medical-weight-loss/">Weight Loss</a>
       <a href="/aevita-clinic/locations/">Locations</a>
       <a href="/aevita-clinic/about/">About</a>
+      <a class="nav-cta-mobile" href="/aevita-clinic/consultation/">Book a Consultation</a>
+      <a class="nav-contact-mobile" href="tel:+38970555100">+389 70 555 100</a>
+      <a class="nav-contact-mobile" href="mailto:hello@aevitaclinic.mk">hello@aevitaclinic.mk</a>
     </nav>
-    <a class="btn btn-gold" href="/aevita-clinic/consultation/">Book Consultation</a>
+    <a class="btn btn-gold btn-cta" href="/aevita-clinic/consultation/">
+      <span class="cta-long">Book Consultation</span>
+      <span class="cta-short">Book</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false"
+            onclick="var b=document.body,o=b.classList.toggle('nav-open');this.setAttribute('aria-expanded',o)">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 <div class="crumbs"><div class="container"><a href="/aevita-clinic/">Home</a><span class="sep">/</span><a href="/aevita-clinic/locations/">Locations</a><span class="sep">/</span><a href="/aevita-clinic/locations/bulgaria/">Bulgaria</a><span class="sep">/</span><span class="current">Plovdiv</span></div></div>
