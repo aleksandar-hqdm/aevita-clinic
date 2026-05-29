@@ -1591,6 +1591,10 @@ def url(path: str) -> str:
 
 def head(title: str, description: str, canonical: str, schema: str = "") -> str:
     """Standard head block."""
+    # Source content uses pre-escaped &amp; for body HTML use; unescape
+    # here so html.escape() doesn't double-encode in meta tags.
+    title = title.replace("&amp;", "&")
+    description = description.replace("&amp;", "&")
     canonical_full = DOMAIN + canonical
     og_image = DOMAIN + "/assets/og.jpg"
     return f"""<!doctype html>
