@@ -31,6 +31,7 @@ ADDRESS_COUNTRY = "North Macedonia"
 GEO_LAT = "41.9981"
 GEO_LNG = "21.4254"
 DOMAIN = "https://aleksandar-hqdm.github.io/aevita-clinic"  # GitHub Pages URL
+BASE_PATH = "/aevita-clinic"  # subdirectory on aleksandar-hqdm.github.io
 WHATSAPP = "38970555100"
 
 FOUNDERS_NOTE = (
@@ -1581,12 +1582,12 @@ def slugify(s: str) -> str:
 
 
 def url(path: str) -> str:
-    """Relative URL for the static site. Always returns an absolute-style path."""
+    """Internal URL — prepends BASE_PATH so GitHub Pages subdir routing works."""
     if path.startswith("http"):
         return path
     if not path.startswith("/"):
         path = "/" + path
-    return path
+    return BASE_PATH + path
 
 
 def head(title: str, description: str, canonical: str, schema: str = "") -> str:
