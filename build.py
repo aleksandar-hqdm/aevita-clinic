@@ -791,6 +791,321 @@ LOCATIONS = {
             },
         },
     },
+    "germany": {
+        "name": "Germany",
+        "name_local": "Deutschland",
+        "lede": (
+            "Germany invented modern medical ozone — and the EBO2 "
+            "device we use is German-manufactured to German medical "
+            "standards. Aevita delivers the same protocol as the "
+            "leading German clinics at 30–40% less, with direct "
+            "Wizz Air and Lufthansa flights to Skopje from every "
+            "major hub."
+        ),
+        "cities": {
+            "berlin": {
+                "name": "Berlin",
+                "context": (
+                    "Direct Wizz Air and Ryanair routes from Berlin "
+                    "Brandenburg (BER) to Skopje, two and a half "
+                    "hours. Many Berlin patients fly Friday "
+                    "evening, complete EBO2 Saturday and recovery "
+                    "Sunday, fly home Sunday evening."
+                ),
+            },
+            "munich": {
+                "name": "Munich",
+                "context": (
+                    "Direct Lufthansa and Wizz Air from Munich "
+                    "(MUC) to Skopje in under two hours. The "
+                    "shortest German corridor — single-night "
+                    "package covers a Friday-to-Saturday EBO2 "
+                    "round-trip for most patients."
+                ),
+            },
+            "frankfurt": {
+                "name": "Frankfurt",
+                "context": (
+                    "Direct Wizz Air from Frankfurt-Hahn (HHN) and "
+                    "one-stop Lufthansa via Vienna. The clinic "
+                    "concierge meets every Frankfurt patient at "
+                    "SKP arrivals with paperwork pre-cleared."
+                ),
+            },
+        },
+    },
+    "austria": {
+        "name": "Austria",
+        "name_local": "Österreich",
+        "lede": (
+            "Vienna is the European capital of medical ozone "
+            "research — and Aevita's protocols are aligned with "
+            "the Austrian Medical Society for Ozone Therapy. "
+            "Direct flights from Vienna and Graz; Aevita pricing "
+            "30% below Vienna clinic rates."
+        ),
+        "cities": {
+            "vienna": {
+                "name": "Vienna",
+                "context": (
+                    "Direct Austrian Airlines and Wizz Air from "
+                    "Vienna (VIE) to Skopje daily, one hour fifteen. "
+                    "The most-frequent international corridor at "
+                    "Aevita — many Viennese patients are repeat "
+                    "MAH-course bookings."
+                ),
+            },
+            "salzburg": {
+                "name": "Salzburg",
+                "context": (
+                    "Rail or short flight to Vienna, then direct "
+                    "to Skopje. We coordinate the full multi-leg "
+                    "itinerary and two-night Skopje recovery stay."
+                ),
+            },
+            "graz": {
+                "name": "Graz",
+                "context": (
+                    "Direct seasonal flights to Skopje plus year-"
+                    "round connections via Vienna. Six-hour drive "
+                    "via Hungary and Serbia is a popular summer "
+                    "alternative."
+                ),
+            },
+        },
+    },
+    "switzerland": {
+        "name": "Switzerland",
+        "name_local": "Schweiz / Suisse / Svizzera",
+        "lede": (
+            "Swiss patients are our highest-volume international "
+            "source. Comparable EBO2 in Zurich or Geneva runs "
+            "CHF 1,800–2,400; Aevita delivers the same German "
+            "device, the same medical protocols, with German-"
+            "speaking physician support — at roughly 30% of the "
+            "Swiss price."
+        ),
+        "cities": {
+            "zurich": {
+                "name": "Zurich",
+                "context": (
+                    "Seasonal direct Wizz Air from Zurich (ZRH) "
+                    "to Skopje plus year-round Swiss/Edelweiss via "
+                    "Vienna. Most Zurich patients fly Thursday "
+                    "evening, treat Friday, return Saturday."
+                ),
+            },
+            "geneva": {
+                "name": "Geneva",
+                "context": (
+                    "One-stop via Vienna, Zurich or Munich. We "
+                    "coordinate the full travel package — German- "
+                    "and French-speaking medical concierge."
+                ),
+            },
+            "basel": {
+                "name": "Basel",
+                "context": (
+                    "Direct Wizz Air from EuroAirport Basel (BSL) "
+                    "to Skopje seasonal. Basel is increasingly our "
+                    "most-favoured Swiss arrival corridor for the "
+                    "shorter total trip time."
+                ),
+            },
+        },
+    },
+    "netherlands": {
+        "name": "Netherlands",
+        "name_local": "Nederland",
+        "lede": (
+            "Amsterdam is a two and a half hour direct Wizz Air "
+            "flight to Skopje. Dutch patients save substantially "
+            "vs the Amsterdam private-clinic market and arrive at "
+            "a clinic running German-manufactured equipment under "
+            "EU-aligned medical protocols."
+        ),
+        "cities": {
+            "amsterdam": {
+                "name": "Amsterdam",
+                "context": (
+                    "Direct Wizz Air from Amsterdam Schiphol (AMS) "
+                    "to Skopje, two and a half hours. We coordinate "
+                    "transfer and recovery hotel within fifteen "
+                    "minutes of the clinic."
+                ),
+            },
+            "rotterdam": {
+                "name": "Rotterdam",
+                "context": (
+                    "Wizz Air via Eindhoven (EIN) direct to Skopje, "
+                    "or via Amsterdam. The medical concierge meets "
+                    "every Rotterdam patient at SKP arrivals."
+                ),
+            },
+            "the-hague": {
+                "name": "The Hague",
+                "context": (
+                    "Train to Schiphol then direct to Skopje. We "
+                    "recommend the two-night Skopje package for "
+                    "Hague patients to allow recovery before the "
+                    "return."
+                ),
+            },
+        },
+    },
+    "belgium": {
+        "name": "Belgium",
+        "name_local": "België / Belgique",
+        "lede": (
+            "Brussels is a direct Wizz Air route to Skopje, under "
+            "three hours. Belgian patients save substantially vs "
+            "Antwerp and Brussels private-clinic pricing — German "
+            "equipment, German-speaking physician support, and a "
+            "full international care package."
+        ),
+        "cities": {
+            "brussels": {
+                "name": "Brussels",
+                "context": (
+                    "Direct Wizz Air from Brussels Charleroi (CRL) "
+                    "to Skopje. The clinic concierge handles "
+                    "transfer and accommodation across the two- "
+                    "night recovery package."
+                ),
+            },
+            "antwerp": {
+                "name": "Antwerp",
+                "context": (
+                    "Train to Brussels Charleroi or Amsterdam "
+                    "Schiphol, then direct to Skopje. We "
+                    "coordinate the full multi-leg itinerary."
+                ),
+            },
+            "ghent": {
+                "name": "Ghent",
+                "context": (
+                    "Train to Charleroi or Schiphol, then direct "
+                    "Wizz Air to Skopje. Recovery package includes "
+                    "two-night Skopje stay and telemedicine "
+                    "follow-up."
+                ),
+            },
+        },
+    },
+    "luxembourg": {
+        "name": "Luxembourg",
+        "name_local": "Lëtzebuerg",
+        "lede": (
+            "Luxembourg patients fly via Frankfurt, Vienna or "
+            "Brussels — every routing under five hours total. "
+            "Aevita coordinates the full multi-leg itinerary plus "
+            "medical concierge from arrival to departure."
+        ),
+        "cities": {
+            "luxembourg-city": {
+                "name": "Luxembourg City",
+                "context": (
+                    "Direct Luxair to Vienna, then Austrian "
+                    "Airlines or Wizz Air to Skopje. We coordinate "
+                    "the full itinerary and two-night recovery "
+                    "stay."
+                ),
+            },
+            "esch-sur-alzette": {
+                "name": "Esch-sur-Alzette",
+                "context": (
+                    "Train to Luxembourg City and fly via Vienna, "
+                    "or drive to Frankfurt-Hahn for direct Wizz "
+                    "Air. We handle the multi-leg booking."
+                ),
+            },
+            "differdange": {
+                "name": "Differdange",
+                "context": (
+                    "Same routing options as Luxembourg City. The "
+                    "medical concierge meets every Luxembourg "
+                    "patient at SKP arrivals with paperwork pre-"
+                    "cleared."
+                ),
+            },
+        },
+    },
+    "norway": {
+        "name": "Norway",
+        "name_local": "Norge",
+        "lede": (
+            "Norwegian patients fly Oslo or Bergen to Skopje via "
+            "Vienna, Munich or Warsaw — total transit four to six "
+            "hours. Aevita pricing is a fraction of the Oslo "
+            "private-clinic market, with EU-grade medical "
+            "protocols and English-speaking physician support."
+        ),
+        "cities": {
+            "oslo": {
+                "name": "Oslo",
+                "context": (
+                    "Direct SAS or Norwegian to Vienna, then "
+                    "Austrian or Wizz Air to Skopje. The most-"
+                    "frequent Norwegian corridor — two-night "
+                    "package recommended."
+                ),
+            },
+            "bergen": {
+                "name": "Bergen",
+                "context": (
+                    "Bergen–Oslo–Vienna–Skopje is the cleanest "
+                    "routing. We coordinate the full multi-leg "
+                    "booking and meet every Bergen patient at SKP."
+                ),
+            },
+            "stavanger": {
+                "name": "Stavanger",
+                "context": (
+                    "Stavanger–Copenhagen–Vienna–Skopje, or via "
+                    "Oslo. We handle the full itinerary and two-"
+                    "night Skopje recovery stay."
+                ),
+            },
+        },
+    },
+    "denmark": {
+        "name": "Denmark",
+        "name_local": "Danmark",
+        "lede": (
+            "Direct Wizz Air from Copenhagen to Skopje, under "
+            "three hours. Danish patients save substantially vs "
+            "Copenhagen private-clinic pricing — and Aevita "
+            "delivers the same German EBO2 device under licensed-"
+            "physician protocols."
+        ),
+        "cities": {
+            "copenhagen": {
+                "name": "Copenhagen",
+                "context": (
+                    "Direct Wizz Air from Copenhagen (CPH) to "
+                    "Skopje, under three hours. The shortest "
+                    "Scandinavian corridor — single-night package "
+                    "covers most EBO2 round-trips."
+                ),
+            },
+            "aarhus": {
+                "name": "Aarhus",
+                "context": (
+                    "Aarhus–Copenhagen rail then direct Wizz Air. "
+                    "We coordinate the full multi-leg booking and "
+                    "two-night Skopje recovery stay."
+                ),
+            },
+            "odense": {
+                "name": "Odense",
+                "context": (
+                    "Odense–Copenhagen rail then direct Wizz Air. "
+                    "Medical concierge meets every Odense patient "
+                    "at SKP arrivals."
+                ),
+            },
+        },
+    },
 }
 
 # Western markets — source-market landing pages
